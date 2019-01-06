@@ -1,0 +1,74 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(102, 102, 102);
+}
+#main-box{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 45, 85);
+    border: solid black 1px;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+.userBox{
+    width: fit-content;
+    margin: 0 auto; 
+
+}
+#fruitGifBox{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.fruit-btn{
+    font-size: 18px;
+    padding: 3px;
+    margin: 2px;
+    background-color: rgb(255, 97, 6) ;
+    color: white;
+    border-radius: 3px;
+    border: solid rgb(230, 183, 32) 2px;
+}
+#getFruit{
+    font-size: 18px;
+    padding: 3px;
+    margin: 2px;
+    background-color: rgb(255, 97, 6) ;
+    color: white;
+    border-radius: 3px;
+    border: solid rgb(230, 183, 32) 2px;
+
+}
+
+.fruit-btn:hover{
+    background-color:rgb(230, 183, 32);
+}
+
+input{
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 4px;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto; 
+    width: 60%;
+}
+
+p{
+    font-size: 10px;
+    text-align: center;
+    margin: 0 auto; 
+    width: 60%;
+    margin-top: 5px;
+}
+
+img{
+    margin: 4px;
+}
+
+
